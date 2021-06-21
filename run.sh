@@ -5,4 +5,4 @@ cd jpipeline
 ./gradlew jpipeline-executor:bootJar
 ./gradlew jpipeline-manager:bootJar
 cd ../
-docker build -t jpipeline/jpipeline-docker .
+docker build -t iamhook/jpipeline .
